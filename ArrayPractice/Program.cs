@@ -77,7 +77,7 @@ namespace ArrayPractice
 
             char[] characters = { 'a', 'b', 'c', 'd', 'e' };
             Console.WriteLine(characters[0]);
-            Array.Reverse(characters);
+            characters.Reverse();
             Console.WriteLine(characters[0]);
 
             string[] students = { "Tom", "Bob", "Ted", "Ned" };
